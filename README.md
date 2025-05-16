@@ -16,18 +16,18 @@ git clone https://github.com/mkcomru/test_task_workmate
 cd employee-payroll
 ```
 
-### Запуск скрипта
+## Запуск скрипта
 
 ```bash
 python main.py data1.csv data2.csv data3.csv --report payout
 ```
 
-### Параметры
+## Параметры
 
 - `files`: Один или несколько CSV файлов с данными сотрудников
 - `--report`: Тип отчёта (например, `payout`)
 
-### Формат CSV файлов
+## Формат CSV файлов
 
 CSV файлы должны содержать следующие столбцы:
 - `id`: Идентификатор сотрудника
